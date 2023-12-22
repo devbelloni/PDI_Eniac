@@ -1,0 +1,463 @@
+ @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+body{
+    background-color: #32569F;
+   }
+
+   div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;  
+    justify-content: center;  
+   }
+
+   #logo_carreiras{
+    margin-top: 9vh;
+   }
+
+   #login_header{
+    overflow: hidden;
+    color: #0C1D40;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: 'Righteous';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+   }
+   
+   form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+   
+   #form{
+    border-radius: 4px;
+    background: rgba(255, 254, 252, 0.93); 
+    width: 350px;
+    height: 400px;
+    flex-shrink: 0;
+   }
+  
+   #div_content{
+    display: grid;
+    position:relative;  
+    justify-content: center;
+   }
+
+   #text_email{
+    color: #0C1D40;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+   }
+   
+   #box_email{
+    justify-content: center;
+    border-radius: 4px;
+    color:#0C1D40;
+    border: 1px solid #7B90FF;
+    background: #F4F4F4;
+    width:282px;
+    height: 40px;
+   flex-shrink: 0;
+   }
+   
+   #text_senha{
+    color: #0C1D40;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+   }
+   
+   #box_senha{
+    border-radius: 4px;
+    border: 1px solid #7B90FF;
+    background: #F4F4F4;
+    width:282px;
+    height: 40px;
+    flex-shrink: 0;
+   }
+   
+   #esqueceu_senha{
+   margin-top: 2%;
+   margin-left: -10vh;
+   color: #0C1D40;
+   font-family: 'Inter';
+   font-size: 15px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   }
+   
+    #clique{
+    color: #7B90FF;
+    font-family: 'Inter';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+    }
+    #cadastre{
+      color: #7B90FF;
+      font-family: 'Inter';
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal; 
+      }
+   
+    #botao1{
+    justify-content: center;
+    align-items: center;
+    width: 88px;
+    height: 35px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #5787E6;
+    color: #F4F4F4;
+    font-family: 'Inter';
+    font-size: 15px;
+    }
+   
+   #botao1_login{
+       width: 280px;
+       border-bottom: 2px;
+       border-style: solid;
+       border-color: black;
+       display: flex;
+       align-items: center;
+   }
+   
+   
+    #conta1{
+     color: #0C1D40;
+     width: 140px;
+     height: 13px;
+     flex-shrink: 0;
+     text-align: center;
+     font-family: 'Poppins';
+     font-size: 15px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+    }
+   
+   #botao_box2{
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 254, 252, 0);
+   }
+   
+   
+   #login_footer{
+   margin-top: 15vh;
+ }
+   
+   
+ @media screen and (min-width:768px) and (max-width:992px){
+
+ #logo_carreiras{
+ margin-top: 9vh;
+ justify-content: center;
+ align-items: center;
+ }
+
+ #form{
+  border-radius: 4px;
+  background: rgba(255, 254, 252, 0.93); 
+  width: 600px;
+  height: 500px;
+  flex-shrink: 0;
+ }
+
+ #div_content{
+  display: grid;
+  position:relative;  
+  justify-content: center;
+ }
+
+#login_header{
+ overflow: hidden;
+ color: #0C1D40;
+ text-align: center;
+ text-overflow: ellipsis;
+ font-family: 'Righteous';
+ font-size: 33px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: normal;
+}
+
+#text_email{
+ color: #0C1D40;
+ font-family: 'Inter';
+ font-size: 25px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: normal;
+ }
+
+ #box_email{
+ justify-content: center;
+ border-radius: 4px;
+ color:#0C1D40;
+ border: 1px solid #7B90FF;
+ background: #F4F4F4;
+ width:360px;
+ height: 40px;
+ font-size: 16px;
+ }
+
+ #text_senha{
+ color: #0C1D40;
+ font-family: 'Poppins';
+ font-size: 25px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: normal;
+ }
+   
+#box_senha{
+ border-radius: 4px;
+ border: 1px solid #7B90FF;
+ background: #F4F4F4;
+ width:360px;
+ height: 40px;
+ font-size: 16px;
+ }
+
+
+ #esqueceu_senha{
+ margin-top: 1%;
+ margin-left: -8vh;
+ color: #0C1D40;
+ font-family: 'Inter';
+ font-size: 20px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: normal;
+ }
+    
+ #clique{
+ color: #7B90FF;
+ font-family: 'Inter';
+ font-size: 20px;
+ font-style: normal;
+ font-weight: 700;
+ line-height: normal; 
+ }
+    
+ #botao1{
+ justify-content: center;
+ align-items: center;
+ width: 88px;
+ height: 50px;
+ flex-shrink: 0;
+ border-radius: 4px;
+ background: #5787E6;
+ color: #F4F4F4;
+ font-family: 'Inter';
+ font-size: 20px;
+}
+    
+#botao1_login{
+ width: 370px;
+ border-bottom: 2px;
+ border-style: solid;
+ border-color: black;
+ display: flex;
+ align-items: center;
+}
+    
+#conta1{
+ color: #0C1D40;
+ width: 200px;
+ height: 13px;
+ flex-shrink: 0;
+ text-align: center;
+ font-family: 'Poppins';
+ font-size: 23px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: normal;
+ }
+    
+ #botao_box2{
+ justify-content: center;
+ align-items: center;
+ background-color: rgba(255, 254, 252, 0);
+    
+}
+
+#img_carreira{
+  height: auto;
+  width: 60px;
+}
+
+#login_footer{
+ margin-top: 35vh;
+  }
+} 
+
+@media screen and  (min-width:1200px){
+
+ #logo_carreiras{
+ justify-content: center;
+ align-items: center;
+ }
+
+ #login_header{
+  width: 540px;
+  height: 53px;
+  overflow: hidden;
+  color: #0C1D40; 
+  text-align: center;
+  text-overflow: ellipsis;
+  font-family: 'Righteous';
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  }
+
+#text_email{
+ width: 49px;
+ height: 15px;
+ color: #0C1D40;
+ font-family: 'Poppins';
+ font-size: 17px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: normal;
+}
+
+#box_email{
+ margin-top: 1vh;
+ justify-content: center;
+ border-radius: 4px;
+ color:#0C1D40;
+ border: 1px solid #7B90FF;
+ background: #F4F4F4;
+ width:360px;
+ height: 40px;
+ font-size: 17px;
+}
+
+#text_senha{
+ width: 49px;
+ height: 15px;
+ color: #0C1D40;
+ font-family: 'Poppins';
+ font-size: 17px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: normal;
+  }
+    
+#box_senha{
+ margin-top: 1vh;
+ justify-content: center;
+ border-radius: 4px;
+ color:#0C1D40;
+ border: 1px solid #7B90FF;
+ background: #F4F4F4;
+ width:360px;
+ height: 40px;
+ font-size: 17px;
+ }
+ 
+
+#esqueceu_senha{
+ margin-top: 1%;
+ margin-left: -13vh;
+ color: #0C1D40;
+ font-family: 'Inter';
+ font-size: 18px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: normal;
+}
+       
+#clique{
+ color: #7B90FF;
+ font-family: 'Inter';
+ font-size: 18px;
+ font-style: normal;
+ font-weight: 700;
+ line-height: normal; 
+ }
+         
+#botao1_login{
+ width: 370px;
+ border-bottom: 2px;
+ border-style: solid;
+ border-color: black;
+ display: flex;
+ align-items: center;
+ }
+
+#form{
+ border-radius: 4px;
+ background: rgba(255, 254, 252, 0.93); 
+ width: 1100px;
+ height: 500px;
+ flex-shrink: 0;
+}
+
+#botao1{
+ justify-content: center;
+ align-items: center;
+ width: 88px;
+ height: 50px;
+ flex-shrink: 0;
+ border-radius: 4px;
+ background: #5787E6;
+ color: #F4F4F4;
+ font-family: 'Inter';
+ font-size: 20px;
+
+}
+
+#botao_box2{
+ border-radius: 4px;
+ background: rgba(255, 254, 252, 0);
+}
+
+#div_content{
+ display: grid;
+ position:relative;  
+ justify-content: center;
+}
+
+#conta1{
+ width: 455px;
+ height: 13px;
+ color: #0C1D40;
+ text-align: center;
+ font-family: 'Poppins';
+ font-size: 17px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: normal;
+}
+
+#img_carreira{
+  height: auto;
+  width: 60px;
+}
+
+
+#login_footer{
+  margin-top: 30vh;
+ }
+}

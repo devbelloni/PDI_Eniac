@@ -1,0 +1,125 @@
+p{
+    font-family: 'Inter';
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+h2{
+    font-family: 'Righteous';
+}
+h3{
+    font-family: 'Poppins';
+    font-size: 24px;
+    color: white;
+}
+a{
+    color: #000;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 700;
+}
+button{
+    width: 88px;
+    height: 35px;
+    border-radius: 4px;
+    background: #5787E6;
+    color: #FFFEFC;
+    font-family: 'Poppins';
+    font-size: 12px;
+}
+footer{
+    display: flex;
+    align-self: flex-end;
+}
+#editarfoto_main{
+    height: 90vh;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 30px;
+}
+#editarfoto_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    row-gap: 20px;
+    width: 358px;
+    height: 364px;
+    padding: 30px;
+    background-color: #5787E6;
+    border-radius: 10px;
+}
+#editarfoto_cardheader{
+    flex-direction: column;
+}
+#editarfoto_cardcontent{
+    flex-direction: column;
+}
+#editarfoto_foto{
+    background-color: #FFFFFF;
+    border-radius: 100px;
+    width: 127px;
+    height: 127px;
+}
+#editarfoto_form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#editarfoto_input{
+    width: 206px;
+    height: 31px;
+    border-radius: 10px;
+    background-color: #FFF;
+}
+@media screen and (min-width:992px) and (max-width:1200px){
+    #editarfoto_card{
+        width: 50%;
+        height: 300px; 
+        flex-direction: row;  
+    }
+    #editarfoto_cardheader{
+        display: flex;
+        flex-direction: column;
+    }
+    #editarfoto_cardcontent{
+        display: flex;
+        flex-direction: column;
+        row-gap: 25px;
+        align-items: center;
+    }
+    #editarfoto_foto{
+        align-self: flex-start;
+
+    }
+    h3{
+        align-self: flex-start;
+    }
+    p{
+        width: 70%;
+        font-size: 18px;
+    }
+}
+@media screen and (min-width:1200px){
+    #editarfoto_card{
+        width: 40%;
+        height: 300px;
+        flex-direction: row;
+    }
+    #editarfoto_cardheader{
+        display: flex;
+        flex-direction: column;
+    }
+    #editarfoto_cardcontent{
+        display: flex;
+        flex-direction: column;
+        row-gap: 25px;
+        align-items: center;
+    }
+    p{
+        width: 60%;
+    }
+}

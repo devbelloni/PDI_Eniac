@@ -1,0 +1,19 @@
+Telas                          Front    |    Back    |   
+
+*Index			                 ok           
+*Login 				             ok                   
+*Cadastro 		      		     ok           
+*Home                            ok 
+*Empregabilidade	             ok           
+*Recuperar_senha                 ok  
+*Trabalho Voluntário		     ok           
+*TCC					         ok           
+*Projetos de Extensão            ok            
+*Experiência Profissional Index  95%
+*Projeto Integrador              ok
+*PDI                             80%
+*Editar Cadastro                 ok 
+*ADM Login                       ok
+*ADM Cadastro                    ok
+*ADM Dashboard                   ok
+

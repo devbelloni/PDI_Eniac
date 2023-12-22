@@ -1,0 +1,126 @@
+#editarcadastro_main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 32px;
+    padding: 50px 0 40px 0;
+}
+#editarcadastro_main h1{
+    color: white;
+    font-size: 24px;    
+}
+#editarcadastro_main h2{
+    color: white;
+    font-size: 16px;
+    font-family: 'Poppins';    
+}
+#editarcadastro_main p{
+    color: white;
+    margin-top: 21px;
+    font-size: 16px;
+    font-family: 'Poppins'     
+}
+#editarcadastro_card{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0px;
+    justify-content: start;
+    background-color: #5787E6;
+    width:278px;
+    height: 1587px;
+    border-radius: 4px;
+    padding: 26px 16px 26px 16px;
+}
+#editarcadastro_header{
+    display: flex;
+    flex-direction: column;
+    row-gap: 23px;
+    align-items: center;
+}
+#editarcadastro_foto{
+    background-color: white;
+    width: 136px;
+    height: 136px;
+    border-radius: 70px;
+}
+#editarcadastro_card input{
+    background-color: transparent;
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: white;
+    margin-top: 24px;
+    width: 100%;
+}
+.editarcadastro_input1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 46px;
+}
+.editarcadastro_input2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-color: transparent;
+}
+#editarcadastro_inputdate{
+    width: 245px;
+}
+#editarcadastro_inputsemestre{
+    width: 123px;
+}
+#editarcadastro_main button{
+    width: 88px;
+    height: 35px;
+    background-color: #5787E6;
+    color: white;
+    border-radius: 4px;
+
+}
+@media screen and (min-width:768px) and (max-width:992px){
+    #editarcadastro_card{
+        width: 85%;
+        padding-top: 60px;
+        height: 1340px;
+    }
+    #editarcadastro_card h1{
+        margin-left: -5vw;
+    }
+    #editarcadastro_header{
+        align-self: flex-start;
+        margin-left: 5vw;
+        margin-top: -3vh;
+    }
+    #editarcadastro_main form{
+        width: 35vw;
+        align-self: center;
+        margin-top: -25vh;
+        padding-left: 25px;
+    }
+}
+@media screen and (min-width:992px) and (max-width:1200px){
+    #editarcadastro_main form{
+        margin-top: -20vh;
+    }
+    #editarcadastro_card h1{
+        margin-left: -12vw;
+    }
+}
+@media screen and (min-width:1200px){
+    #editarcadastro_card{
+        width: 85%;
+        padding-top: 60px;
+        height: 1340px;
+    }
+    #editarcadastro_main form{
+        width: 35vw;
+        align-self: center;
+        margin-top: -20vh;
+        padding-left: 25px;
+    }
+    #editarcadastro_header{
+        align-self: flex-start;
+        margin-left: 5vw;
+        margin-top: -3vh;
+    }
+}

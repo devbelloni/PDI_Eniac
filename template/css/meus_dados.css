@@ -1,0 +1,58 @@
+#home_video2{
+    display:flex;
+    position: absolute;
+    width:35%;
+    height:47%;
+    background-color: var(--cards-color);
+    float: right;
+    text-align: center;
+    justify-content:center;
+    border-radius: 0 30px 0 30px;
+    margin-top:53vh;
+    margin-left:12vw;
+    z-index: -1;
+    color: white;
+    }
+
+    #home_video2 div h1, h2, p, ul {
+        color: var(--text-color);
+        align-content: center;
+        text-align: center;
+        font-size: 15px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        }
+
+        #home_video3{
+            display:flex;
+            position: absolute;
+            width:35%;
+            height:47%;
+            background-color: var(--cards-color);
+            float: right;
+            text-align: center;
+            justify-content:center;
+            border-radius: 0 30px 0 30px;
+            margin-top:53vh;
+            margin-left:50vw;
+            z-index: -1;
+            color: white;
+            }
+        
+            #home_video3 div h1, h2, p, ul {
+                color: var(--text-color);
+                align-content: center;
+                text-align: center;
+                font-size: 15px;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 800;
+                line-height: normal;
+                }
+#dados{
+    font-size: 50px;
+    color: aquamarine;
+
+}

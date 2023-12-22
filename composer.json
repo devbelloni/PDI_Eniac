@@ -1,0 +1,7 @@
+{
+    "require": {
+        "chillerlan/php-authenticator":"^4.0",
+        "setasign/fpdf":"^1.8",
+        "chillerlan/php-qrcode": "^4.0"
+    }
+}

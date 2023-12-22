@@ -1,0 +1,514 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Poppins:wght@400;500;600;700;800&family=Righteous&family=Titillium+Web:wght@200;300&display=swap');
+
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    border: 0;
+  }
+    html,body{
+    width: 100vw;
+    height: 100vh;
+    
+  }
+body{
+    background-color: #5787E6;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pdi-mae{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-filho-pdi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #5787E6;
+    font-family: Poppins;
+    width: 363px;
+    height: 0 auto;
+    border-radius: 10px;
+    background: #FFFEFC;
+    margin-top:8vh;  
+}
+
+.card-filho-pdi h1{
+    margin-top: 3vh;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    align-items: center;
+}
+.card-filho-pdi p{
+
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
+
+.dados-aluno{
+    margin-top:1rem;
+    padding: 15%;
+}
+
+.card-foto{
+margin-top: 4rem;
+width: 150px;
+height: 150px;
+border-radius: 10px;
+background: #5787E6;
+}
+
+.linkedin{
+margin-top: 15vh;
+
+}
+.whatsapp{
+margin-top:0vh;
+}
+
+.linkedin p{
+    color: #FFFEFC;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom:2vh;
+}
+
+.whatsapp p{
+    color: #FFFEFC;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom:2vh;
+}
+
+.qrcode{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 6rem;
+}
+
+.card-filho-aluno{
+    width: 363px;
+height: 0 auto;
+flex-shrink: 0;
+border-radius: 10px;
+background: #FFFEFC;
+text-align: center;
+margin-top: 5rem;
+}
+
+.card-filho-aluno h1{
+    color: #0C1D40;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 5vh;
+}
+
+.card-filho-aluno p{
+    color: #0C1D40;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    line-height:5rem;
+}
+
+.card-filho-grafico{
+width: 363px;
+height: 500px;
+border-radius: 10px;
+background: #FFFEFC;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin-top:2rem;
+}
+
+.card-filho-grafico h1{
+    color: #0C1D40;
+    font-family: Inter;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.card-filho-portfolio{
+width: 363px;
+height: 0 auto;
+border-radius: 10px;
+background: #FFFEFC;
+margin-top: 5vh;
+}
+
+.card-filho-portfolio h1{
+color: #0C1D40;
+font-family: Righteous;
+font-size: 26px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-top: 3vh;
+text-align: center;
+}
+
+.card-filho-portfolio h2{
+    color: #0C1D40;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 3vh;
+    text-align: center;
+}
+
+.card-filho-portfolio p{
+color: #0C1D40;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 3rem;
+text-align: center;
+}
+
+.home_footer {
+    background-color: #5B5B5B;
+    min-height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:2vh;
+  }
+  
+  .home_footerCopyright {
+    color:white;
+  }
+
+#piechart_3d{
+  padding-right: 50vw;
+  width: 500px;
+  height: 500px;
+}
+
+#bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+}
+
+.print{
+    width: 88px;
+height: 35px;
+flex-shrink: 0;
+border-radius: 4px;
+background: #5787E6;
+color:white;
+margin-top:1rem;
+cursor:pointer;
+}
+@media print{
+
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.5em;
+    }
+.print{
+    display: none;
+}
+.home_header{
+    display:none;
+}
+.home_footer{
+    display:none;
+}
+
+.card-filho-pdi{
+    margin-top: 0vh;
+    
+}
+
+.card-filho-pdi h1{
+    font-size: 35px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.5em;
+}
+.card-filho-pdi p{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.5em;
+}
+.qrcode{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: -5vh;
+}
+.linkedin{
+    margin-top: 12vh;
+    
+    }
+    .whatsapp{
+    margin-top:12vh;
+    }
+
+.card-filho-aluno{
+margin-top: 0vh;
+}
+
+.card-filho-aluno h1{
+    font-size: 35px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.5em;
+    }
+
+    .card-filho-aluno p{
+        font-size: 20px;
+        font-weight: 500;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 3.5em;
+        }
+
+.card-filho-grafico{
+    display: flex;
+    justify-content: center;
+    margin-top: 35vh;
+    height: 700px;
+}
+
+#chart{
+    margin-top: 10vh;
+}
+
+.card-filho-grafico h1{
+    font-size: 35px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.5em;
+}
+
+.card-filho-grafico p{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.5em;
+}
+
+.card-filho-portfolio{
+    margin-top: 5vh;
+}
+
+.card-filho-portfolio p{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.5em;
+}
+
+.card-filho-portfolio h1{
+    font-size: 35px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.5em;
+}
+
+}
+
+@media screen and (min-width:768px) and (max-width:1024px){
+
+    .card-filho-pdi{
+
+        width: 700px;
+        height: 700px;
+          
+    }
+    
+    .card-filho-pdi h1{
+        font-size: 35px;
+        font-weight: 500;
+    }
+    .card-filho-pdi p{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    justify-content:space-between;
+    }
+
+    .card-foto{
+        width: 150px;
+        height: 150px;
+        }
+
+        .qrcode{
+            flex-direction: row;
+            gap: 10rem;
+        }
+
+        .whatsapp{
+            margin-top: 15vh;
+        }
+
+        #chart{
+            width: 500px;
+            height: 500px;
+            margin-top: 2rem;
+        }
+
+.card-filho-aluno{
+    width: 700px;
+    height: 0 auto;
+}
+        .card-filho-aluno h1{
+            font-size: 30px;
+            font-weight: 700;
+        }
+        
+        .card-filho-aluno p{
+            font-size: 20px;
+            font-weight: 700;
+        }
+
+        .card-filho-grafico{
+            width: 700px;
+            height: 700px;
+        }
+
+        .card-filho-grafico h1{
+            font-size: 30px;
+            font-weight: 700;
+        }
+
+        .card-filho-portfolio{
+            width: 700px;
+            height: 0 auto;
+        }
+
+        .card-filho-portfolio h1{
+            font-size: 30px;
+            font-weight: 700;
+        }
+
+        .card-filho-portfolio p{
+            font-size: 20px;
+            font-weight: 700;
+        }
+        
+
+
+}
+
+@media screen and (min-width:1200px) and (max-width:1920px){
+    .card-filho-pdi{
+
+        width: 900px;
+        height: 700px;
+          
+    }
+    
+    .card-filho-pdi h1{
+        font-size: 35px;
+        font-weight: 500;
+        margin-top: 13vh;
+    }
+    .card-filho-pdi p{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    justify-content:space-between;
+    line-height: 1.5em;
+    }
+
+    .card-foto{
+        width: 150px;
+        height: 150px;
+        }
+
+        .qrcode{
+            flex-direction: row;
+            gap: 10rem;
+        }
+
+        .whatsapp{
+            margin-top: 15vh;
+        }
+
+.card-filho-aluno{
+    width: 900px;
+    height: 0 auto;
+}
+        .card-filho-aluno h1{
+            font-size: 30px;
+            font-weight: 700;
+        }
+        
+        .card-filho-aluno p{
+            font-size: 20px;
+            font-weight: 700;
+        }
+
+        .card-filho-grafico{
+            width: 900px;
+            height: 700px;
+        }
+
+        #chart{
+            width:500px;
+            height:500px;
+            margin-top: 2rem;
+        }
+
+        .card-filho-grafico h1{
+            font-size: 30px;
+            font-weight: 700;
+        }
+
+        .card-filho-portfolio{
+            width: 900px;
+            height: 0 auto;
+        }
+
+        .card-filho-portfolio h1{
+            font-size: 30px;
+            font-weight: 700;
+        }
+
+        .card-filho-portfolio p{
+            font-size: 20px;
+            font-weight: 700;
+        }
+
+        
+}

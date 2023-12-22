@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Righteous&display=swap');
+
+body{
+    background-color: #32569F;
+}
+#recsenha_logo{
+    display: flex;
+    justify-content: center;
+    min-height: 10vh;
+    padding: 80px 0 48px 0;
+}
+#logo_carreira{
+    height: 80px;
+    width: auto;
+}
+#recsenha_h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Righteous', sans-serif;
+    margin-bottom: 40px;
+}
+#recsenha_form{
+    display: flex;
+    min-height: 80vh;
+    justify-content: center;
+    row-gap: 5vh;
+}
+#recsenha_card1{
+    background-color: white;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 316px;
+    height: 204px;
+}
+#recsenha_email1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    display: flex;
+    align-items: start;
+}
+#recsenha_email{
+    font-family: 'Poppins', sans-serif;
+    border: 2px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #7B90FF;
+    width: 100%;
+    height: 40px;
+}
+#recsenha_input{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    padding-right: 26px;
+    padding-left: 26px;
+}
+#recsenha_botao{
+    display: flex;
+    justify-content: center;
+}
+#recsenha_botao1{
+    background-color: #5787E6;
+    border-color: white;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    width: 153px;
+    height: 46px;
+}
+#recsenha_footer{
+    display: flex;
+    flex: end;
+}

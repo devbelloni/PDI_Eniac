@@ -1,0 +1,97 @@
+h2{
+color: #0C1D40;
+font-family: 'Righteous';
+width: 80vw;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+p{
+color: #0C1D40;
+text-align: justify;
+font-family: 'Poppins';
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 0 8vw 0 8vw;
+}
+#exp_card1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#exp_h2{
+    text-align: center;
+}
+#div{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+button{
+    border-radius: 4px;
+    background: #5787E6;
+    color: #FFFEFC;
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-weight: 700;
+    width: 252px;
+    height: 30px;
+}
+#exp_footer{
+    margin-top: 8vh;
+}
+@media screen and (min-width:768px) and (max-width:992px){
+    h2{
+        font-size: 30px;
+    }
+    p{
+        font-size: 20px;
+    }
+    #exp_h2{
+        width: 255px;
+        height: 61px;
+    }
+    #exp_card2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (min-width:992px) and (max-width:1200px){
+    h2{
+        font-size: 30px;
+    }
+    p{
+        font-size: 25px;
+    }
+    #exp_h2{
+        width: 295px;
+        height: 61px;
+    }
+}
+@media screen and (min-width:1200px){
+    h2{
+        font-size: 40px;
+    }
+    p{
+        font-size: 20px;
+        width: 900px;
+    }
+    #exp_conte{
+    width: 502px;
+    height: 63px;
+    }
+    #exp_bot{
+        margin-top: 10vh;
+    }
+    button{
+        width: 387px;
+        height: 40.2px;
+    }
+}

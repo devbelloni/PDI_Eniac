@@ -1,0 +1,329 @@
+/*-----------------------------------Estilo projetos integradores--------------------------------------*/
+
+/*import de fontes*/
+
+  @import url('https://fonts.googleapis.com/css2?family=Abel&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Righteous&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap');
+
+/*Estilo Corpo da Página*/
+
+body{
+    color: #0C1D40;
+    font-family: 'Righteous';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: #FFFEFC;
+    }
+    
+    /*Estilo divisão de linha*/
+    
+    div .div-line{
+    min-width: 100%;
+    height: 2px;
+    position: absolute;
+    bottom:0;
+    display:flex;
+    background: #D9D9D9;
+    color:#D9D9D9;
+    }
+
+    /*Estilo logo*/
+    
+    div .logo{
+    display: inline-block;
+    position:absolute;
+    right:0;
+    z-index: 10;
+    }
+    
+    /*Estilo Header*/
+    
+    .div-header{
+    width: 100%;
+    height:83px;
+    display:-webkit-flex;
+    background: rgba(50, 86, 159, 0.94);
+    position: relative;
+    justify-content: start;
+    align-items: center;
+    }
+    
+    /*Estilo carreiras*/
+    
+    .carreiras h2{
+    display: flex;
+    margin-top: -1rem;
+    color: #0C1D40;
+    font-family: Righteous;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    justify-content: center;
+    text-align: center;
+    }
+    
+    /*Estilo Título*/
+    
+    .projeto{
+    justify-content: center;
+    color: #000;
+    text-align: center;
+    font-family: Righteous;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 3rem;
+    }
+    
+    /*Estilo formulário TCC*/
+    
+    div .projeto-form{
+        display: flex;
+        flex-direction: column;
+        flex-wrap:wrap;
+        margin-top:3rem;
+        }
+    
+    /*Estilo footer*/
+    
+    .footermove{
+    position: relative;
+    margin-top: 2.5rem;
+    }
+    
+    /*Estilo input text 1*/
+    
+    .input-text1{
+    width: 332px;
+    height: 24px;
+    border-radius: 4px;
+    border: 1px solid #7B90FF;
+    background: rgba(244, 244, 244, 0.94);
+    margin-bottom:1rem;
+    margin-left: 3vh;
+    }
+    
+    /*Estilo input text 2*/
+    
+    .input-text2{
+    width: 332px;
+    height: 24px;
+    border-radius: 4px;
+    border: 1px solid #7B90FF;
+    background: rgba(244, 244, 244, 0.94);
+    margin-bottom:1rem;
+    margin-left: 3vh;
+    }
+    
+    /*Estilo input text 3*/
+    .input-text3{
+    width: 332px;
+    height: 118px;
+    border-radius: 4px;
+    border: 1px solid #7B90FF;
+    background: rgba(244, 244, 244, 0.94);
+    margin-bottom:1rem;
+    margin-left: 3vh;
+    }
+
+    /*Estilo label*/
+    .projeto-label{
+     width: 332px;
+     height: 21px;
+     color: #0C1D40;
+     font-family: 'Poppins';
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+     margin-left: 3vh;
+    }
+    
+    /*Estilo botão*/
+    
+    button #btn-projeto {
+      color: #FFFEFC;
+      width: 88px;
+      height: 35px;
+     border-radius: 4px;
+     background: #5787E6;
+     margin-top: 2rem;
+     color: #FFFEFC;
+     font-family: 'Poppins';
+     font-size: 14px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+    }
+
+    /*tablets*/
+@media screen and (min-width:768px) and (max-width:992px){
+    body{
+        color: #0C1D40;
+        font-family: 'Righteous';
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        background: #FFFEFC;
+        }
+        
+        /*Estilo divisão de linha*/
+        
+        .div-line{
+        min-width: 100%;
+        height: 5px;
+        display:flex;
+        margin-top: -3vh;
+        position: relative;
+        background: #D9D9D9;
+        color:#D9D9D9;
+        }
+    
+        /*Estilo logo*/
+        
+        .logo{
+        display: flex;
+        margin-top: -8vh;
+        margin-left:70vw;
+        
+        z-index: 1;
+        }
+        
+        /*Estilo Header*/
+        
+        .div-header{
+        width: 100%;
+        height:83px;
+        display:-webkit-flex;
+        background: rgba(50, 86, 159, 0.94);
+        position: relative;
+        justify-content: start;
+        align-items: center;
+        }
+        
+        /*Estilo carreiras*/
+        
+        .carreiras{
+        margin-top: -1rem;
+        color: #0C1D40;
+        font-family: 'Righteous';
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        }
+        
+        /*Estilo Título*/
+        
+        .projeto{
+        margin-top: 3rem;
+        position: relative;
+        justify-content: center;
+        color: #000;
+        text-align: center;
+        font-family: 'Righteous';
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        }
+        
+        /*Estilo formulário TCC*/
+        
+        .projeto-form{
+        margin-top:2rem;
+        position: relative;
+        }
+        
+        /*Estilo footer*/
+        
+        .footermove{
+        display: flex;
+        position: relative;
+        margin-top: 2.5rem;
+        }
+        
+        /*Estilo input text 1*/
+        
+        .input-text1{
+        width: 332px;
+        height: 28px;
+        border-radius: 4px;
+        border: 1px solid #7B90FF;
+        background: rgba(244, 244, 244, 0.94);
+        margin-bottom:1rem;
+        margin-left: 3vh;
+        }
+        
+        /*Estilo input text 2*/
+        
+        .input-text2{
+        width: 332px;
+        height: 28px;
+        border-radius: 4px;
+        border: 1px solid #7B90FF;
+        background: rgba(244, 244, 244, 0.94);
+        margin-bottom:1rem;
+        margin-left: 3vh;
+        }
+        
+        /*Estilo input text 3*/
+        .input-text3{
+        width: 332px;
+        height: 124px;
+        border-radius: 4px;
+        border: 1px solid #7B90FF;
+        background: rgba(244, 244, 244, 0.94);
+        margin-bottom:1rem;
+        margin-left: 3vh;
+        }
+    
+        /*Estilo label*/
+        .projeto-label{
+         width: 332px;
+         height: 25px;
+         color: #0C1D40;
+         font-family: 'Poppins';
+         font-size: 20px;
+         font-style: normal;
+         font-weight: 700;
+         line-height: normal;
+         margin-left: 3vh;
+        }
+        
+        /*Estilo botão*/
+        
+        .btn-projeto{
+        color: #FFFEFC;
+        width: 100px;
+        height: 48px;
+        border-radius: 4px;
+        background: #5787E6;
+        margin-top: 2rem;
+        color: #FFFEFC;
+        font-family: 'Poppins';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        }
+ .footermove{
+     margin-top: 8rem;
+ }
+
+
+}
+
+  
+
+
+
+
+   
+

@@ -1,0 +1,100 @@
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+  border: 0;
+}
+  html,body{
+  width: 100vw;
+  height: 100vh;
+}
+h1{
+  color: #0C1D40;
+  font-family: 'Righteous';
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+  /*div{
+  display: flex;
+  position: relative;
+  justify-content: center;
+}*/
+.home_header {
+  height: auto;
+  width: 100%;
+  border-bottom: 2px solid #D9D9D9;
+}
+
+.home_headerNavbar {
+  background-color: #32569F;
+  height: 12vh;
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 1rem;
+}
+
+.home_headerNavbarLogo {
+  height: auto;
+  width: 74px;
+  position: absolute;
+  top: .75rem;
+  right: 1rem;
+}
+
+.home_headerTitleBox {
+  height: 12vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home_headerTitle {
+  font-size: 2.75rem;
+}
+footer{
+  display: flex;
+  width:100%;
+  height: 47.401px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #5B5B5B;
+}
+  #footer_p{
+  color: #FFF;
+  font-size: 12px;
+}
+/* Padronização para a logo */
+@media screen and (min-width:768px) and (max-width:992px){
+  .home_headerNavbarLogo{
+    width: 90px;
+    height: 135.103px;
+  }
+  .home_headerTitle{
+    font-size: 40px;
+  }
+}
+@media screen and (min-width:992px) and (max-width:1200px){
+  .home_headerNavbarLogo{
+    width: 90px;
+    height: 135.103px;
+  }
+  .home_headerTitle{
+    font-size: 50px;
+  }
+}
+@media screen and (min-width:1200px){
+  .home_headerNavbarLogo{
+    width: 112px;
+    height: 165.103px;
+  }
+  .home_headerTitle{
+    font-size: 64px;
+  }
+}

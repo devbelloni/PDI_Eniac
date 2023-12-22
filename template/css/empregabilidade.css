@@ -1,0 +1,175 @@
+h1,h2{
+    color: #0C1D40;
+    font-family: 'Righteous';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+p{
+    color: #0C1D40;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+div{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+}
+#emp_oque{
+    font-size: 24px;
+}
+#emp_txt{
+    padding:1rem;
+    font-size: 13px;
+}
+#emp_resposta{
+    font-size: 20px;
+    text-align: center;
+    /* padding-left: 1rem; */
+}
+#emp_txt1{
+    font-size: 16px;
+    font-weight: 700;
+    padding: 1rem;
+}
+#emp_txt2{
+    font-size: 16px;
+    font-weight: 700;
+    padding: 1rem;
+}
+#emp_vo{
+    font-size: 16px;
+    font-weight: 700;
+    text-align:justify;
+    padding: 1rem;
+}
+.emp_input{
+    border-radius: 4px;
+    border: 1px solid #7B90FF;
+    background: rgba(244, 244, 244, 0.94);
+    width: 95%;
+    height: 24px;
+    
+}
+#emp_input1{
+    padding-left: 1rem;
+}
+button{
+    border-radius: 4px;
+    background: #5787E6;
+    width: 88px;
+    height: 35px;
+    color: #FFFEFC;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Poppins';
+    align-items: center;
+}
+#empregabilidade_btn{
+    align-items: center;
+}
+#emp_footer{
+    margin-top: 5vh;
+}
+
+@media screen and (min-width:768px) and (max-width:992px){
+    #emp_txt{
+        font-size: 20px;
+        text-align: justify;
+    }
+    #emp_resposta{
+        text-align: center;
+        font-size: 30px;
+    }
+    #emp_input{
+        width: 600px;
+
+    }
+    #emp_txt1{
+        padding-left: 1rem;
+        font-size: 15px;
+    }
+    #emp_txt2{
+        padding-left: 1rem;
+        font-size: 15px;
+    }
+}
+@media screen and (min-width:992px) and (max-width:1200px){
+    #emp_oque{
+        font-size: 45px;
+    }
+    #emp_txt{
+        font-size: 25px;
+        text-align: justify;
+    }
+    #emp_resposta{
+        text-align: center;
+        font-size: 40px;
+    }
+    #emp_input{
+        width: 600px;
+    }
+    #emp_txt1{
+        font-size: 25px;
+        padding-left: 10rem;
+    }
+    #emp_txt2{
+        font-size: 25px;
+        padding-left: 8rem;
+    }
+}
+
+@media screen and (min-width:1200px){
+    #card1{
+        align-items: start;
+        padding:5rem 0px 0px 5rem;
+    
+    }
+    #card2{
+        align-items:flex-end;
+        justify-content: center;
+        margin-top: -75vh;
+        padding:0px 5rem 0px 0px;
+
+    }
+    #emp_txt{
+        width: 500px;
+        text-align: justify;
+        font-size: 20px;
+    }
+    #emp_oque{
+        font-size: 35px;
+    }
+    #emp_ola{
+        font-size: 20px;
+    }
+    #emp_resposta{
+        font-size: 30px;
+        text-align: center;
+    }
+    #emp_txt1{
+        font-size: 20px;
+        padding-left: 1rem;
+    }
+    #emp_txt2{
+        font-size: 20px;
+        width: 520px;
+        height: 72px;
+    }
+    #emp_input{
+        width: 400px;
+        height: 29px;
+    }
+    #emp_input1{
+        padding:1rem;
+    }
+    #emp_footer{
+        margin-top: 10vh;
+    }
+}

@@ -1,0 +1,564 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato:wght@100&family=Montserrat:wght@500&family=Open+Sans&family=Poppins:wght@400;600&family=Roboto:wght@500&family=Source+Sans+Pro:wght@300;400&family=Square+Peg&display=swap");
+
+header{
+  align-items: center;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #6e0af0;
+}
+
+a{
+  font-family: 'Arial Narrow Bold', sans-serif;
+  font-size: medium;
+  color: azure;
+  font-size: large;
+}
+
+
+footer {
+  margin-top: 5%;
+  display: block;
+  justify-content: center;
+  height: auto;
+  width: 100%;
+  position: relative;
+}
+
+img.logo{
+  width: 20%;
+}
+
+h1, h2, p{
+  color:white;
+  font-family: 'Times New Roman';
+}
+
+input{
+  width: inherit;
+}
+
+
+.toSignUpBox {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
+
+.toSignUpBox p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 29px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.toSignUpBox p a {
+  color: #F49C5D;
+  text-decoration: none;
+}
+.toSignUpBox p a:hover {
+  text-decoration: underline;
+}
+
+.textDevelopedBy {
+  position: absolute;
+  bottom: 1.5rem;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.loginBox {
+  height: 65vh;
+  width: 28vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.loginBoxTextTop {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.loginBoxTextTop h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  color: #F49C5D;
+}
+
+.loginBoxTextTop p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.loginBoxForm {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.loginBoxForm form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.usernameInput,
+.passwordInput {
+  height: 5vh;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  display: flex;
+}
+
+.usernameInput input,
+.passwordInput input {
+  height: 5vh;
+  width: 90%;
+  border-radius: 10px 0 0 10px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 1rem;
+}
+
+.usernameInput label,
+.passwordInput label {
+  height: 5vh;
+  width: 10%;
+  border-radius: 0 10px 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rememberMeBtn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rememberMeBtn input {
+  height: 2vh;
+  width: 2vw;
+  border-radius: 10px;
+}
+
+.rememberMeBtn label {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 15px;
+  color: #FFFFFF;
+}
+  
+.submitBtn {
+  height: 2rem;
+  width: 20rem;
+  border-radius: 10px;
+  background-color: #6e0af0;
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+  transition: 0.6s;
+}
+
+.submitBtn:hover {
+  transform: scale(1.05);
+}
+
+.black{
+  color:black;
+  font-family: 'Times New Roman';
+}
+
+
+
+#retangulo {
+  width: 50%;
+  height: 5700px;
+  position: absolute;
+  margin-bottom:1%;
+  top: 12%;
+  left: 46%;
+  margin-left: -7.5cm; /* Metade da largura para centralizar o retângulo */
+  background: rgba(10, 10, 10, 0.50);
+  z-index: -1; /* Coloca o retângulo atrás dos parágrafos */
+}
+
+/* Definindo o layout da grade */
+  #grid-container {
+  margin-top: 5%;
+  grid-template-columns: 1fr 1fr; /* Duas colunas com a mesma largura */
+  gap: 20px; /* Espaçamento entre as colunas */
+  height: 80vh; /* Altura da grade ocupando a altura da tela */
+  width: 100%;
+}
+
+.color_text{
+  color: white;
+}
+
+#projetoIntegrador{
+  color:white;
+}
+
+#main-index {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+  align-items: center;
+  width: 100%;
+}
+
+#main-login {
+  background-image: linear-gradient(rgb(104, 104, 128), rgba(0, 0, 0, 0.4));
+  background-size: 50%;
+  background-position: center;
+  height: 30%;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  padding-top: 30%;
+  padding-bottom: 5%;
+  align-items: center;
+}
+
+#main-cadastro {
+  background-image: linear-gradient(rgba(235, 235, 240, 0.075), rgba(0, 0, 184, 0.4));
+  background-size: 65%;
+  height: 65%;
+  width: 100%;
+  position: fixed;
+  justify-content: safe;
+  padding-top: 1%;
+  align-items: center;
+}
+
+#logoEniac {
+  position: relative;
+  top: 2rem;
+  width: 30%;
+}
+
+#logoEniacInicio {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  width: 100%;
+}
+
+#login-button{
+  width: 100%;
+}
+
+#text-card{
+  color: white;
+}
+
+#logotype{
+  display: flex;
+}
+
+#photoContainer{
+  display: flex;
+  height: 40v;
+}
+
+#photo, #logoCarreiras{
+  width: 100%;
+  height: 100%;
+}
+
+/* Estilizando os itens da grade */
+.item1 {
+  background-color: transparent;
+  width: 100%;
+}
+
+.item2 {
+  background-color: transparent;
+}
+
+#photo{
+  width: 40vh;
+  height: 40vh;
+  border-radius: 50px;
+  margin-bottom:15%;
+
+}
+
+#name{
+  font-family: Courier;
+  color: white;    
+  font-size: 152%;
+  font-weight: bold;
+}
+
+#RA, #EMAIL_INST, #NASC{
+  font-family: Verdana;
+  color: white;    
+  font-size: 100%;
+}
+
+#card_dados{
+  width:100%; 
+  border-radius: 25px 0 25px 0;
+  margin-left: 0vw;
+}
+
+#nameBlack{
+  font-family: Courier;
+  color: black;    
+  font-size: 152%;
+}
+
+
+@media (max-width: 1024px){
+  p{
+    color: white;
+    font-size:140%;
+  }
+}
+
+@media (max-width: 768px){
+  p{
+    color: white;
+    font-size:100%;
+  }
+}
+
+@media (max-width: 480px){
+  p{
+    color: white;
+    font-size:110%;
+  }
+
+  #retangulo {
+    width: 100%;
+    height: 6200px;
+    position: absolute;
+    left: 285px;
+    top: 195px ;
+    background-color: darkblue;
+    z-index: -1; /* Coloca o retângulo atrás dos parágrafos */
+  }
+  
+  .card{
+    position: absolute;
+    width: 100%;
+    height:100% ;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  #mover_grafico{
+    margin-left: 100px;
+
+  }
+  #grau{
+      position: absolute;
+      margin-left: 140px;
+  }
+  #ins{
+      position: absolute;
+      margin-left:90px ;
+      margin-top: 50px;
+      width: 250px;
+  }
+  #situ{
+      position: absolute;
+      margin-left: 125px;
+      margin-top:80px ;
+  }
+  #acao{
+      position: absolute;
+      margin-left: 90px;
+      margin-top: 135px;
+      width:250px ;
+  }
+  #ativ{
+      position: absolute;
+      margin-left: 15px;
+      margin-top: 170px;
+      width:100% ;
+  }
+  #idade{
+      position: absolute;
+      margin-left:90px ;
+      margin-top:250px ;
+      width: 250px;
+  }
+  #vo{
+      position: absolute;
+      margin-left:15px ;
+      margin-top:280px ;
+      width:100% ;
+  }
+  #ce{
+      position: absolute;
+      margin-left:90px ;
+      margin-top:360px ;
+      width: 250px;
+  }
+  #botao{
+      position: absolute;
+      margin-left:45px ;
+      margin-top:380px ;
+  }
+}
+
+@media print {
+  body {
+    background-color: black; /* Por exemplo, fundo branco para impressão */
+  }
+  #retangulo {
+    width: 100%;
+    position: absolute;
+    left: 285px;
+    top: 25px ;
+    background-color: darkblue;
+    z-index: -1; /* Coloca o retângulo atrás dos parágrafos */
+  }
+  p{
+    color: black;
+    font-size:100%;
+  }
+  h1{
+    color:black;
+  }
+  #name{
+    font-family: Courier;
+    color: black;    
+    font-size: 152%;
+  }
+  .btn,nav{
+    display:none;
+  }
+
+  #card_dados{
+    left:-50%;
+    width:100%; 
+    border-radius: 25px 0 25px 0;
+  }
+    #photo{
+    width: 18vh;
+    height: 18vh;
+    border-radius: 50px;
+    margin-bottom:15%;
+  }
+}
+
+
+/* Empregabilidade */
+#todo{
+  margin-top: 2%;
+  text-align: center;
+  align-items: center;
+}
+
+#code{
+  position: relative;
+  margin-top:15px ;
+  margin-left:10px ;
+  font-size: 25px;
+}
+.card{
+  background-color: #011143;
+  height: 105%;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  align-items: center;
+  margin-left: 90px;
+}
+#grau{
+  font-size: 20px;
+  margin-left: 80px;
+}
+#ins{
+  width: 80%;
+}
+#situ{
+  margin-top:5%;
+  font-size: 20px;
+}
+#acao{
+  width: 80%;
+}
+#ativ{
+  margin-top:5%;
+  font-size: 20px;
+}
+#idade{
+  width: 80%;
+}
+#vo{
+  margin-top:5%;
+  font-size: 20px;
+}
+#ce{
+  width: 80%;
+}
+#botao{
+  position: relative;
+  width: 50%;
+  height: 5%;
+  margin-top: 5%;
+}
+
+#color{
+    color: white;
+}
+
+#color-2{
+    color: rgb(8, 194, 194);
+}
+
+#photo2{
+  border-radius: 50%;
+}
+
+#mover_grafico{
+  margin-left:6vw;
+}
+#cardmove{
+  margin-left: 0vw;
+}

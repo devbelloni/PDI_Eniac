@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Righteous&display=swap');
+
+body{
+ background-color: #32569F;
+}
+
+div{
+ display: flex;
+ flex-direction: column;
+ flex-wrap: wrap;  
+ justify-content: center;  
+}
+
+#errousenha_form{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
+ padding-top: 15vh;
+}
+#logo_carreiraerrou{
+    margin-top: 10vh;
+}
+
+#errousenha_h1{
+ overflow: hidden;
+ color: #0C1D40;
+ text-align: center;
+ text-overflow: ellipsis;
+ white-space: nowrap;
+ font-size: 18px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: normal;
+}
+
+#errousenha_input{
+ border-radius: 4px;
+ background: #FFFEFC; 
+ width: 400px;
+ height: 100px;
+ align-items: center;
+ gap: 2vh;
+}
+
+#errousenha_botao{
+ background-color: #5787E6;
+ width: 100px;
+ height: 40px;
+ color: #FFFEFC;
+ font-size: 18px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: normal;
+}
+
+#errou_footer{
+ margin-top: 55vh;
+}
+
+@media screen and (min-width:768px) and (max-width:992px){
+
+ #errousenha_h1{
+ font-size: 23px;
+ }  
+
+ #errousenha_input{
+ width: 590px;
+ height: 110px;
+ }
+
+#errousenha_botao{
+ width: 120px;
+ height: 45px;  
+ }
+}
+
+@media screen and (min-width:1200px){
+ #errousenha_h1{
+ font-size: 25px;
+}  
+       
+ #errousenha_input{
+ width: 600px;
+ height: 130px;
+}
+       
+ #errousenha_botao{
+ width: 125px;
+ height: 48px;  
+ }
+}
